@@ -1,5 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Satisfy&display=swap');
 
+
+/* Font-Family:
+font-family: 'Satisfy', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+ */
 .logo {
     width: 75px;
 }
@@ -32,12 +37,38 @@ header h1, footer h1 {
     background-position: center;
     height: 450px;
     color: #fff;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.jumbotron2 > h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+.jumbotron2 {
+    background-image: url(../img/alt-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
     color: #fff;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* Featured Products */
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+}
+
+h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em;
+    color: #c9c983;
+    text-shadow: 1px 1px 2px #333;
 }
 
 /* Footer Section */
